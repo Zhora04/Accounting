@@ -21,7 +21,7 @@
 #include <numeric>
 #include <functional>
 #include <chrono>
-#include <assert.h>
+#include <cassert>
 using ll = long long;
 using namespace std;
 const ll mod = 1e9 + 7;
@@ -43,8 +43,8 @@ void test_case()
             int x;
             scanf("%d", &x);
             x--;
-            if (last[x] > restart_time) cout << arr[x] << "\n";
-            else cout << now << "\n";
+            if (last[x] > restart_time) printf("%d\n", arr[x]);
+            else printf("%d\n", now);
         }
         else if (s[0] == 'R')
         {
