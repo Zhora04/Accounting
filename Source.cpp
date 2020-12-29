@@ -67,7 +67,7 @@ void test_case()
 int main()
 {
     /*int tc;
-    cin >> tc;
+    scanf("%d", &tc);
     while (tc--)*/
         test_case();
 
